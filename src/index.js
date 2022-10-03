@@ -62,11 +62,6 @@ window.addEventListener('DOMContentLoaded', () => {
             taskToDelete.deleteTask(idx);
           } else {
             // drag item
-            const DragDrop = DragAndDrop;
-            const dragObj = new DragDrop(idx);
-            dragObj.dragStart();
-            dragObj.dragOver();
-            dragObj.drop();
           }
           blurred = true;
         }
