@@ -2,7 +2,6 @@
 import './style.css';
 import ToDoList from './todolist.js';
 import taskStatus from './taskstatus.js';
-import DragAndDrop from './draganddrop.js';
 import Del from '../icon/delete.png';
 import Drag from '../icon/drag.png';
 import Syn from '../icon/sync.png';
